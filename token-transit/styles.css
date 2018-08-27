@@ -17,17 +17,16 @@ h1 {
 
 h3 {
   color: rgb(51, 51, 51);
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Montserrat';
   font-weight: 1200;
 }
 
 p {
   color: rgb(119, 119, 126);
-  width: 100%;
+  display: block;
   font-size: 16px;
   text-align: center;
-  letter-spacing: 0.5px;
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 300;
@@ -35,13 +34,10 @@ p {
 
 #p1 {
   color: rgb(119, 119, 126);
-  width: 100%;
+  display: block;
+  padding: 0rem 55rem;
   font-size: 22px;
   text-align: center;
-  letter-spacing: 0.25px;
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 300;
 }
 
 span {
@@ -93,7 +89,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100px;
-  padding: 10px 15%;
+  padding: 1.5% 15%;
   box-sizing: border-box;
 }
 
@@ -155,6 +151,7 @@ nav ul li a {
 .button-title {
   text-align: center;
   margin: 0 auto;
+  padding-top: 10px;
   width: 100%;
 }
 
@@ -177,7 +174,7 @@ nav ul li a {
   padding-bottom: 10%;
   margin: 0 auto;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 12.5px;
   text-align: center;
   font-size: 12px;
   color: grey;
@@ -189,8 +186,7 @@ nav ul li a {
 
 .section1 {
   background: rgb(238, 238, 238);
-  margin: 0 auto;
-  width: 100%;
+  display: block;
   padding-top:2%;
   padding-bottom: 3%;
   text-align: center;
@@ -207,15 +203,15 @@ nav ul li a {
   background: rgb(238, 238, 238);
   margin: 0 auto;
   width: 100%;
-  padding-top: 2%;
-  padding-bottom: 2.5%;
+  padding-top: 1.5%;
+  padding-bottom: 3%;
   text-align: center;
 }
 
 .section4 {
   margin: 0 auto;
   width: 100%;
-  padding-top: 2%;
+  padding-top: 1.5%;
   padding-bottom: 3%;
   text-align: center;
 }
@@ -231,12 +227,26 @@ nav ul li a {
   padding-bottom: 6.5%;
 }
 
-.column1, .column2, .column3{
+.column1of1, .column2of1, .column3of1 {
  float: left;
  text-align: center;
  width: calc(100% / 3);
  margin: calc (100% / 3);
 }
+
+.column1of2, .column2of2, .column3of2 {
+  float: left;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: calc (100% / 3);
+ }
+
+ .column1of3, .column2of3, .column3of3 {
+  float: left;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: calc (100% / 3);
+ }
 
 .request {
   padding: 1.5rem 4rem;
